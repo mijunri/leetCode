@@ -1,4 +1,4 @@
-package medium;
+package leetcode;
 
 public class T322 {
     public int coinChange(int[] coins, int amount) {

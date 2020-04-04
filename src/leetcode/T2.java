@@ -1,7 +1,5 @@
-package medium;
+package leetcode;
 
-
-import java.util.List;
 
 class ListNode {
     int val;

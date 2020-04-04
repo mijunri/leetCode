@@ -1,4 +1,4 @@
-package medium;
+package leetcode;
 
 public class T33a {
 

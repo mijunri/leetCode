@@ -1,4 +1,4 @@
-package medium;
+package leetcode;
 /*
 Z字形变换
  */
