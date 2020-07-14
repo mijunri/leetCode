@@ -13,7 +13,7 @@ public class CountingSort implements Sort {
         }
         int j = 0;
         for(int i = 0; i < countArray.length; i++){
-            for(int k = 0; k < i; k++){
+            for(int k = 0; k < countArray[i]; k++){
                 nums[j++] = i;
             }
         }
@@ -21,7 +21,7 @@ public class CountingSort implements Sort {
 
     public static void main(String[] args){
         int[] nums1 = new int[]{4,1,5,3,7,8,9,3,4,2,1};
-        new HeapSort().sort(nums1);
+        new CountingSort().sort(nums1);
         System.out.println();
     }
 
